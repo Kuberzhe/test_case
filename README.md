@@ -1,5 +1,6 @@
 # test_case
-Для запуска требуются curl, python, taxonkit >= 0.20 (with ncbi taxdump in ~/.taxonkit), pandas, openpyxl (for excel conversion)
+Для запуска требуются curl, python, taxonkit >= 0.20 (with ncbi taxdump in ~/.taxonkit), pandas, openpyxl (for excel conversion) и resp1-1201107674_S85.merged.tsv в рабочей директории
+Usage: bash test_case.sh
 
 Этапы работы скрипта следующие (в процессе создается несколько промежуточных файлов):
 1) Самый долгий этап это перевод accession number хита бласта в taxid, чтобы для него можно было вытащить полную таксономию. Обычно этот шаг можно сделать используя базу данных, против которой был сделан бласт, но т.к. у меня нет к ней доступа (собственная копия на кластере сейчаст тоже недоступна), будем обращаться напрямую к ncbi.
