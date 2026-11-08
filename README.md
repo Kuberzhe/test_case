@@ -1,5 +1,5 @@
 # Тестовое задание
-Для запуска требуются curl, python, taxonkit >= 0.20 (with ncbi taxdump in ~/.taxonkit), pandas, openpyxl (for excel conversion) и resp1-1201107674_S85.merged.tsv в рабочей директории
+Для запуска требуются curl, python, taxonkit >= 0.20 (https://github.com/shenwei356/taxonkit) with ncbi taxdump in ~/.taxonkit, pandas, openpyxl (for excel conversion) и resp1-1201107674_S85.merged.tsv в рабочей директории
 
 Usage: 
 ```
